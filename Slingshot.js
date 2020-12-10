@@ -20,6 +20,7 @@ class SlingShot{
     attach(body){
     Matter.Body.setPosition(body, {x : 250, y: 130})
     this.sling.bodyA = body;
+    bird.trajectory = []
     }
     display(){
         push()
