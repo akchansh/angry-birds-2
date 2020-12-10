@@ -78,6 +78,6 @@ function mouseReleased(){
 
 function keyPressed(){
     if (keyCode === 32){
-    slingShot.attach(bird.body)
+    slingshot.attach(bird.body)
     }
 }
